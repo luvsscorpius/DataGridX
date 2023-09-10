@@ -1,0 +1,22 @@
+{
+  "name": "datagridx",
+  "version": "1.0.0",
+  "description": "DataGridX - Gerenciamento de Dados de Pessoas é uma aplicação web moderna construída em JavaScript que oferece uma interface de usuário altamente interativa e flexível para exibir, editar e gerenciar informações relacionadas a pessoas. Esta aplicação utiliza a tecnologia Fetch para se comunicar com um servidor Node-RED que atua como o backend para operações CRUD (Criar, Ler, Atualizar, Excluir) em dados de pessoas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "and",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^21.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

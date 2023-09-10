@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cabecalhoDataGrid {
+    background-color: #ccc;
+    width: 89%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+
+.iconesDataGridX,
+.logoDataGridX {
+    margin: 20px;
+}
+
+.logoDataGridX {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoDataGridX h4 {
+    margin-top: 10px;
+}
+
+.logoDataGridX img {
+    width: 30px;
+    height: 30px;
+}
+
+.iconesDataGridX button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.iconesDataGridX button:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+}
+
+#myGrid {
+    margin: 0 auto;
+}
+
+
+.icones {
+    margin: 10px;
+}
+
+.icones .icone {
+    cursor: pointer;
+    margin: 3px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.alert {
+    width: 89%;
+}
